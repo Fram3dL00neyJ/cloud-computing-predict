@@ -24,7 +24,7 @@ $(function () {
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
-                url: "https://main.d24soq134dh9ix.amplifyapp.com/sendmessage_api",
+                url: "https://79r7ant3fe.execute-api.us-east-1.amazonaws.com/LambdaFunction",
                 // ------------------------------------------------------  
                 type: "POST",
                 data: JSON.stringify(json),
